@@ -1,0 +1,149 @@
+body {
+	background-color: white;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+ul {
+	font-family: "Courier", Courier, monospace;
+	font-size: 16px;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+    padding-left: 65px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgrey;
+}
+
+.artist{
+
+  width: 1000px;
+  height: 560px;
+  margin-top: 5px;
+  margin-left: 10%;
+  text-align: center;
+  font-family: "Courier", Courier, monospace;
+  font-size: 15px;
+}
+
+
+#box {
+	width: 1000px;
+	height: 560px;
+	margin-top: 5px;
+	margin-left: 10%;
+	background-image: url(http://startupbook.co/wp-content/uploads/2013/05/ghostride.gif);
+}
+
+
+#subbox {
+	position: relative;
+	left: 250px;
+	top: 170px;
+	background-color: white;
+	width: 450px;
+	height: 38%;
+	text-align: center;
+	font-family: "Courier", Courier, monospace;
+	font-size: 13px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 3px;
+	padding-bottom: 0px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Courier", Courier, monospace;
+    opacity: .4;
+}
+
+
+image {
+	max-width: 100%
+	height: auto;
+}
+
+
+.gallery {
+    position: relative;
+    width: 35%;
+    margin-left: 33.333333%;
+    margin-top: 35px;
+    margin-bottom: -10px;
+    border: 2px solid #000000;
+  
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.video {
+  padding-left: 1px;
+  opacity: 1;
+  width: 98%;
+  height: 240px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gallery:hover .image {
+  opacity: 0.15;
+}
+
+.gallery:hover .middle {
+  opacity: 1;
+}
+
+.gallery:hover .video {
+	opacity: 0.15;
+}
+
+.text {
+  color: #000000;
+  font-size: 17px;
+  font-family: "Courier", Courier, monospace;
+  
+}
+
